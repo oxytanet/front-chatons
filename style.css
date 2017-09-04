@@ -16,3 +16,30 @@ body {
 .header a, .header a:focus, .header a:visited {
   color: white;
 }
+
+section {
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.projet {
+  background-color: #fff;
+}
+
+.degooglisons {
+  background-color: #DBD5D5;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.oxyta {
+  color: #ab080e;
+  font-weight: bold;
+}
+
+.net {
+  color: #f9dc00;
+  font-weight: bold;
+}
