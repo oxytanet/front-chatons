@@ -1,18 +1,35 @@
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="node_modules/boostrap/dist/css/boostrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Oxyta.net</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Dégooglisons internet</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <header class="header">
     <h1>Oxyta.net</h1>
     <p>
         Le projet <a href="https://chatons.org/">CHATONS</a> Toulousain dédié aux associations Toulousaines
     </p>
   </header>
-  <nav>
-      <a href="">Services</a>
-      <a href="">Dégooglisons internet</a>
-      <a href="">Contact</a>
-  </nav>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
