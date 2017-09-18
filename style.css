@@ -9,8 +9,16 @@ body {
 .header {
   background: url('./images/pont-neuf-by-maximeraphael-cc-by.jpg') center;
   height: 100vh;
-  padding: 5px 10px;
+  padding: 100px 10px;
   color: #D0D0D0;
+}
+.header-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3rem;
+}
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 2em;
 }
 
 .header a, .header a:focus, .header a:visited {
