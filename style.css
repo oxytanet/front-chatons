@@ -30,6 +30,23 @@ section {
   background-color: #DBD5D5;
 }
 
+.service-list {
+  display: flex;
+}
+.service-list li {
+  margin: 1rem;
+  display: block;
+  border: 1px solid #CCC;
+  flex: 1 1 1%;
+}
+.service-list li a {
+  display: block;
+  padding: 1rem;
+}
+.service-list li a:hover {
+  background-color: #F0F0F0;
+}
+
 h1 {
   font-weight: bold;
 }
