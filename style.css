@@ -26,8 +26,8 @@ body {
 }
 
 section {
-  height: 100vh;
-  padding-top: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .projet {
@@ -37,17 +37,10 @@ section {
 .degooglisons {
   background-color: #DBD5D5;
 }
-
 .service-list {
-  display: flex;
+  margin-bottom: 1em;
 }
-.service-list li {
-  margin: 1rem;
-  display: block;
-  border: 1px solid #CCC;
-  flex: 1 1 1%;
-}
-.service-list li a {
+.service-list.future li {
   display: block;
   padding: 1rem;
 }

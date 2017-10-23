@@ -5,7 +5,7 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
-  <nav class="navbar navbar-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#"><strong><span class="oxyta">Oxyta</span><span class="net">.net</span></strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,10 +29,10 @@
     <div class="header-container container">
       <h1><span class="oxyta">Oxyta</span><span class="net">.net</span></h1>
       <h2>
-          Le projet <a href="https://chatons.org/">CHATONS</a> Toulousain dédié aux associations Toulousaines
+          Le projet <a href="https://chatons.org/">CHATONS</a>, hébergeur internet dédié aux associations Toulousaines
       </h2>
       <p>
-        Notre projet est de permettre aux associations à s'organiser tout en évitant les services en ligne appartenant aux géants du web.
+        Notre projet est de permettre aux associations de s'organiser en évitant les services en ligne appartenant aux géants du web.
       </p>
 
     </div>
@@ -40,33 +40,58 @@
 
   <section class="projet">
     <div class="container">
-      <h2 id="services"><span class="oxyta">Nos</span> <span class="net">Services</span></h2>
+      <h2 id="services"><span class="oxyta">Les</span> <span class="net">Services</span></h2>
       <p>
         Oxyta.net est pour le moment en gestation, mais nous souhaitons proposer divers services pour la collaboration à distance.
       </p>
       <h3>Les services en démo</h3>
-      <ul class="service-list">
-        <li>
-          <a href="https://cloud.oxyta.net">partage de fichiers</a>
-        </li>
-        <li>
-          <a href="https://pad.oxyta.net">édition collaborative avec des "pads"</a>
-        </li>
-      </ul>
+      <div class="service-list row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://cloud.oxyta.net" target="_blank">Partage de fichiers</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <a href="https://pad.oxyta.net" target="_blank">Édition collaborative avec des "pads"</a>
+            </div>
+          </div>
+        </div>
+      </div>
       <h3>À venir</h3>
-      <ul class="service-list">
-        <li>agenda partagé</li>
-        <li>discussion instantanée et vidéo</li>
-        <li>… et d'autres services selon vos besoins</li>
-      </ul>
+      <div class="service-list row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              Agenda partagé
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              Discussion instantanée et vidéo
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              … et d'autres services selon vos besoins
+            </div>
+          </div>
+        </div>
     </div>
   </section>
 
   <section class="degooglisons">
     <div class="container">
       <h2 id="degooglisons"><span class="oxyta">Dégooglisons</span> <span class="net">Internet</span></h2>
-      <p>"CHATONS est le Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires." https://chatons.org/fr</p>
-      <p>Projet monté par l'association Framasoft (http://framasoft.org/ ) une association à la promotion du libre en France.</p>
+      <p>CHATONS est le <a href="https://chatons.org/fr" target="_blank">Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires</a>.</p>
+      <p>Ce projet a été initié par l'association <a href="http://framasoft.org/" target="_blank">Framasoft</a> une association à la promotion du libre en France.</p>
     </div>
   </section>
 
@@ -80,7 +105,7 @@
   </section>
 
   <footer>
-    footer
+
   </footer>
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
