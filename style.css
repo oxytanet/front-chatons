@@ -1,27 +1,59 @@
 body {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    margin: 0;
-  }
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+}
+h2 {
+  color: #ab080e;
+}
 
 .header {
   background: url('./images/pont-neuf-by-maximeraphael-cc-by.jpg') center;
-  height: 100vh;
-  padding: 100px 10px;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: #D0D0D0;
+  text-align: center;
 }
 .header-container {
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 3rem;
-}
-.header h1 {
-  font-size: 3em;
-  margin-bottom: 2em;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.header a, .header a:focus, .header a:visited {
+.header h1,
+.header h2 {
+  margin-bottom: 1rem;
+}
+
+.header h1 {
+  font-size: 3em;
+}
+
+.header h2 {
+  color: white;
+}
+
+.header-container p {
+  text-align: left;
+}
+
+@media (min-width: 867px) {
+  .header-container p {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+  }
+}
+
+.header a,
+.header a:focus,
+.header a:visited {
   color: white;
 }
 
@@ -31,33 +63,27 @@ section {
 }
 
 .projet {
-  background-color: #fff;
+  background-color: #f8f3f2;
 }
 
 .degooglisons {
-  background-color: #DBD5D5;
+  background-color: #e5e1e1;
 }
-.service-list {
+.service-list .card {
   margin-bottom: 1em;
 }
 .service-list.future li {
   display: block;
   padding: 1rem;
 }
-.service-list li a:hover {
-  background-color: #F0F0F0;
-}
-
-h1 {
-  font-weight: bold;
+.service-list a:hover {
+  background-color: #f8f3f2;
 }
 
 .oxyta {
   color: #ab080e;
-  font-weight: bold;
 }
 
 .net {
   color: #f9dc00;
-  font-weight: bold;
 }
