@@ -37,41 +37,57 @@
       <p>Notre objectif est de rejoindre le
         <a href="https://chatons.org/fr/charte-et-manifeste">CHATONS</a>,
         Collectif d’Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et Solidaires.</p>
+      <p>
+        Oxyta.net est pour le moment en gestation, les services que nous souhaitons
+        proposer sont pour le moment en démo.
+      </p>
     </div>
   </header>
 
   <section class="projet">
     <div class="container">
-      <h2 id="services">Les Services</h2>
-      <p>
-        Oxyta.net est pour le moment en gestation, et nous souhaitons proposer
-        divers services pour la collaboration à distance.
-      </p>
-      <h3>Les services en démo</h3>
+      <h2 class="text-center" id="services">Les Services</h2>
+      <h3 class="text-hide">Les Services en démo</h3>
       <div class="service-list row">
         <div class="col-sm-6">
-          <div class="card">
+          <div class="card nextcloud">
+            <img class="card-img-top" src="images/filecabinets-waferboard-cc-by.jpg" alt="Card image file cabinets">
             <div class="card-body">
               <h4>Partage de fichiers</h4>
               <p>
                 Partager des fichiers entre les membres de votre association,
                 mais aussi des agendas, des répertoires de contacts.
               </p>
-              <a href="https://cloud.oxyta.net" target="_blank">Démo partage de fichiers</a>
+              <p class="text-secondary">
+                Ce service utilise <a href="http://nextcloud.com/" target="_blank">nextcloud</a>,
+                logiciel libre de partage de fichier.
+              </p>
+              <p class="text-center">
+                <a class="btn btn-outline-primary" href="https://cloud.oxyta.net" target="_blank">
+                  Démo partage de fichiers</a>
+              </p>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="card">
+          <img class="card-img-top" src="images/tyghbn-jmenj-cc-by.jpg" alt="Card image typewriter">
+          <div class="card etherpad">
             <div class="card-body">
               <h4>Édition collaborative</h4>
               <p>Écrire un document à plusieurs sur un "pad", un compte-rendu de réunion par exemple.</p>
-              <a href="https://pad.oxyta.net" target="_blank">Démo "pads"</a>
+              <p class="text-secondary">
+                Ce service utilise <a href="http://etherpad.org/" target="_blank">etherpad</a>,
+                logiciel libre d'édition de pads.
+              </p>
+              <p class="text-center">
+                <a class="btn btn-outline-primary"href="https://pad.oxyta.net" target="_blank">
+                  Démo "pads"</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <h3>À venir</h3>
+      <h3 class="text-center">À venir</h3>
       <div class="service-list row">
         <div class="col-sm-4">
           <div class="card">
@@ -99,7 +115,7 @@
 
   <section class="degooglisons">
     <div class="container">
-      <h2 id="degooglisons">Dégooglisons Internet</h2>
+      <h2 class="text-center" id="degooglisons">Dégooglisons Internet</h2>
       <p>CHATONS est le <a href="https://chatons.org/fr" target="_blank">
         Collectif des Hébergeurs Alternatifs, Transparents, Ouverts, Neutres et
         Solidaires</a>.</p>
@@ -110,33 +126,45 @@
         et répondent à plusieurs critères :
       </p>
 
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <h3>Logiciel libre et formats ouverts</h3>
+      <div class="row valeurs">
+        <div class="col-xs-12 col-sm-6 col-lg-5 ml-auto mr-auto">
+          <div class="text-center">
+            <img src="images/empowered-by-gnu.svg" alt="Icon Gnu free software" />
+            <h3>Logiciel libre et formats ouverts</h3>
+          </div>
           <p>
             Les 4 libertés des logiciels libres donnent des libertés à leurs utilisateurs.
             Ils permettent aux développeuses et développeurs de mutualiser leurs
             contributions et construire des systèmes plus robustes.
           </p>
         </div>
-        <div class="col-xs-12 col-sm-6">
-          <h3>Pour toutes les associations, quelque soit leurs moyens</h3>
+        <div class="col-xs-12 col-sm-6 col-lg-5 ml-auto mr-auto">
+          <div class="text-center">
+            <img src="images/solidarity.svg" class="img-fluid" alt="Icon solidarité" />
+            <h3>Pour toutes les associations, quelque soit leurs moyens</h3>
+          </div>
           <p>
             Le projet est en construction, le modèle économique n'est pas
             encore fixé mais nous tenons à ce que toute association puisse
             bénéficier de services web.
           </p>
         </div>
-        <div class="col-xs-12 col-sm-6">
-          <h3>Respect des données privées et neutralité</h3>
+        <div class="col-xs-12 col-sm-6 col-lg-5 ml-auto mr-auto">
+          <div class="text-center">
+            <img src="images/net-neutrality.svg" class="img-fluid" alt="Icon neutralité du net" />
+            <h3>Respect des données privées et neutralité</h3>
+          </div>
           <p>
             Respect de vos données personnelles, jamais de publicité,
             et neutralité du réseau vis à vis des données qui transitent
             vers et depuis nos serveurs.
           </p>
         </div>
-        <div class="col-xs-12 col-sm-6">
-          <h3>Solidarité et essaimage</h3>
+        <div class="col-xs-12 col-sm-6 col-lg-5 ml-auto mr-auto">
+          <div class="text-center">
+            <img src="images/essaimage.svg" alt="Icon solidarité" />
+            <h3>Solidarité et essaimage</h3>
+          </div>
           <p>
             Nous nous engageons à documenter et partager les connaissances que
             nous acquérons en construisant notre hébergeur, au travers notamment
@@ -145,17 +173,12 @@
           </p>
         </div>
       </div>
-      <p>
-        L'objectif dans cette démarche n'est pas seulement de dégoogliser internet,
-        mais aussi de décentraliser pour éviter la concentration de l'information et la
-        connaissance en quelques endroits, fragilisant ainsi le réseau des réseaux.
-      </p>
     </div>
   </section>
 
   <section class="contact">
     <div class="container">
-      <h2 id="contact">Qui sommes-nous ?</h2>
+      <h2 class="text-center" id="contact">Qui sommes-nous ?</h2>
       <p>
         Nous sommes des militants du logiciel libre, regroupés au sein du groupe
         <a href="https://alternatiba.eu/toulouse/alternatiba-2017/thematiques/altermediatic/">
@@ -190,7 +213,27 @@
   </section>
 
   <footer>
-
+    <div class="container">
+      <h2><small>Credits</small></h2>
+      <ul class="list-unstyled">
+        <li>
+          <a href="https://www.flickr.com/photos/maximeraphael/11279051964/" target="_blank">
+          Pont Neuf, par Maxime Raphael, CC-By</a>
+        </li>
+        <li>
+          <a href="https://www.flickr.com/photos/waferboard/4137041591/" target="_blank">
+            File cabinets, par waferboard, CC-By</a>
+        </li>
+        <li>
+          <a href="https://www.flickr.com/photos/jmenj/35721830976/" target="_blank">
+            T Y G H B N …, par Jeanne Menjoulet, CC-By</a>
+        </li>
+        <li>
+          Icons from <a href="https://linearicons.com/" target="_blank">linera icons</a>,
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-By-SA v4.0</a>.
+        </li>
+      </ul>
+    </div>
   </footer>
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
