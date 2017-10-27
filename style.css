@@ -61,15 +61,21 @@ h2 {
   color: white;
 }
 
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+.contact,
 .projet {
   background-color: #f8f3f2;
 }
 
+footer,
 .degooglisons {
   background-color: #e5e1e1;
 }
